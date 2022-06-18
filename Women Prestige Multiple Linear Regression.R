@@ -73,6 +73,10 @@ summary(reduced.model)
 
 fit <- lm(prestige ~ education + income + women, data=df)
 summary(fit)
+########################################
+# Comparing the models using ANOVA     #
+########################################
+anova(full.model, reduced.model)
 
 ########################################
 # diagnostic plots                     #
