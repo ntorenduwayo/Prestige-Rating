@@ -151,7 +151,7 @@ women_centered  = scale(df1$women, center = TRUE, scale = FALSE)
 
 centered_predictors <- cbind(education_centered , income_centered , women_centered )
 df2 <- cbind(df1, centered_predictors)
-names(df2)[5:7] = c("education_centered ", "income_centered ", "women_centered" )
+names(df2)[5:7] = c("education_centered", "income_centered", "women_centered" )
 summary(df2)
 
 # Fit a linear model and run a summary of its results
