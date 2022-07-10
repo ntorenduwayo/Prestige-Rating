@@ -130,7 +130,7 @@ plot(model1, which = 1, pch = 16)
 
 
 ########################################
-# diagnostic plots: Model1                    #
+# diagnostic plots: Model1             #
 ########################################
 
 layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
@@ -161,6 +161,13 @@ summary(model2)
 
 model3 <- lm(prestige ~ education_centered + income_centered, data = df2)
 summary(model3)
+
+########################################
+# diagnostic plots: Model2             #
+########################################
+
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
+plot(model2)
 
 ################################################################
 # Comparing the models using ANOVA: Not significantly different #

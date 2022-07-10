@@ -2,7 +2,9 @@
 title: "Multiple Linear Regression"
 author: "JP"
 date: "6/15/2022"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -199,6 +201,26 @@ summary(model3)
 
 ```
 ```{r}
+########################################
+# diagnostic plots: Model2             #
+########################################
+png(file="images/R diagnostic plots Model2.png",
+width=600, height=350)
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
+plot(model2)
+dev.off()
+```
+```{r}
+########################################
+# diagnostic plots: Model2             #
+########################################
+png(file="images/R diagnostic plots Model3.png",
+width=600, height=350)
+layout(matrix(c(1,2,3,4),2,2)) # optional 4 graphs/page
+plot(model3)
+dev.off()
+```
+```{r}
 #################################################################
 # Comparing the models using ANOVA: Not significantly different #
 #################################################################
@@ -361,10 +383,20 @@ plot_ly() %>%
   # Axes labels and title:
   layout(
     title = "3D scatterplot and regression plane",
+    plot_bgcolor='red',
     scene = list(
-      zaxis = list(title = "Prestige"),
-      yaxis = list(title = "Education"),
-      xaxis = list(title = "Income")
+      zaxis = list(gridcolor ='red', 
+                   title = "Prestige",
+                   zerolinewidth = 2,
+                   zerolinecolor = '#ffff'),
+      yaxis = list(gridcolor ='red', 
+                   title = "Education",
+                   zerolinewidth = 2,
+                   zerolinecolor = '#ffff'),
+      xaxis = list(gridcolor ='red', 
+                   title = "Income",
+                   zerolinewidth = 2,
+                   zerolinecolor = '#ffff')
     )
   )
 
