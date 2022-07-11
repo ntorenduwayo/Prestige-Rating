@@ -25,6 +25,9 @@ Professional and managerial(prof), white collar(wc), blue collar(bc), or missing
 #### Graph 1: Data Distribution
 ![R graphs](https://user-images.githubusercontent.com/34750363/178195082-8a50ac77-4ec6-4405-bc4b-18a5f5d3a342.png)
 
-### Graph 3: Correlogran plots
+#### Graph 3: Correlogran plots
 ![correlogram](https://user-images.githubusercontent.com/34750363/178195315-96c089e2-56fa-41ed-9199-b06e723c729d.jpg)
+
+#### Table 2: Correlation Heatmap
+![R heatmap](https://user-images.githubusercontent.com/34750363/178195669-bd468293-e3a9-47ca-828c-2f2a389671f2.png)
 
