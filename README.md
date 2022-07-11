@@ -19,3 +19,6 @@ The code of the occupation used in the survey.
 Professional and managerial(prof), white collar(wc), blue collar(bc), or missing (NA) (Fox and Weisberg 2011) </br>
 ## Results
 ### Data Exploration 
+#### Table 1: Data Summary
+![Data Exploration](https://user-images.githubusercontent.com/34750363/178194797-8625ebb6-7169-4ec0-846d-a8adb1cfebaf.png)
+
