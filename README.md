@@ -31,3 +31,15 @@ Professional and managerial(prof), white collar(wc), blue collar(bc), or missing
 #### Table 2: Correlation Heatmap
 ![R heatmap](https://user-images.githubusercontent.com/34750363/178195669-bd468293-e3a9-47ca-828c-2f2a389671f2.png)
 
+#### Table 3: Multiple Linear Regression Output (With regressors centered to their mean)
+![Multiple Regression Output 3](https://user-images.githubusercontent.com/34750363/178196174-76666531-5444-4893-a4b9-ba67291361cc.png)
+
+#### Graph 4: Model Diagnostic Plots 
+![R diagnostic plots Model3](https://user-images.githubusercontent.com/34750363/178196553-61350634-18b6-4a31-8ead-2121c59fc90d.png)
+
+#### Graph 5: 3D Model Visualization
+![Multiple Regresson 3D Plot1](https://user-images.githubusercontent.com/34750363/178196736-ea9e5468-083a-45b5-820e-61023192f940.png)
+
+
+
+
